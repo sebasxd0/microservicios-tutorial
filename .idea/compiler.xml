@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="usuario-service" />
-        <module name="moto-service" />
         <module name="carro-service" />
+        <module name="config-service" />
+        <module name="moto-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="carro-service" target="17" />
+      <module name="config-service" target="17" />
       <module name="moto-service" target="17" />
       <module name="usuario-service" target="17" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="carro-service" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="moto-service" options="-parameters" />
       <module name="usuario-service" options="-parameters" />
     </option>
