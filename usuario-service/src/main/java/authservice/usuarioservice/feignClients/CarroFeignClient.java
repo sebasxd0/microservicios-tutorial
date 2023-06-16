@@ -1,7 +1,6 @@
 package authservice.usuarioservice.feignClients;
 
 import authservice.usuarioservice.modelos.Carro;
-import authservice.usuarioservice.modelos.Moto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
